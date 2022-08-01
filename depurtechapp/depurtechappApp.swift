@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct depurtechappApp: App {
     let persistenceController = PersistenceController.shared
-
+    // add firebase sdk
     var body: some Scene {
         WindowGroup {
             ContentView()
